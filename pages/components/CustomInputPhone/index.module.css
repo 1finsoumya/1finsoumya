@@ -1,0 +1,92 @@
+/* Input Type text field css start */
+.input-container {
+    display: flex;
+    flex-direction: column;
+    /* margin-bottom: 20px; */
+    position: relative;
+}
+
+.input-container-2 {
+    display: flex;
+    align-items: flex-start;
+    gap: 10px;
+    align-self: stretch;
+    padding: 15px 15px 14px 15px;
+    border-radius: 2px;
+    border: 1px solid #a0a09b;
+    background: #fff;
+    width: inherit;
+}
+
+.input-container-2:focus-within {
+    border: 1px solid #000;
+}
+
+.input-container-2:has(.input:not(:placeholder-shown)) {
+    border: 1px solid #000;
+}
+
+.input:focus .input-container-2 {
+    border: 1px solid #000;
+}
+
+.input {
+    width: 80%;
+    margin-left: 4px;
+    color: #171717;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+.error {
+    border-radius: var(--border-radius, 2px) !important;
+    border: 1px solid var(--error, #CC563C) !important;
+}
+
+.warn {
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    color: var(--error, #CC563C);
+    font-size: 12px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 16px;
+}
+
+.warn > span{
+    font-family: "Fira Sans" !important;
+}
+
+.input::placeholder {
+    color: #a0a09b;
+    font-family: "Fira Sans";
+    font-size: 16px;
+    font-style: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+
+/* Input type text css end */
+
+@media screen and (max-width: 540px) {
+    .input-container {
+        width: 100% !important;
+    }
+
+    .input-container-2 {
+        width: inherit !important;
+    }
+
+    .input{
+        width: 69% !important;
+    }
+
+    .input-container-2 > span {
+        margin-top: 2px;
+    }
+}

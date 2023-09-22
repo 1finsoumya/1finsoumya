@@ -1,0 +1,51 @@
+.primary_btn {
+  text-align: center;
+  min-width: 195px;
+  background-color: #292928;
+  padding: 10px 15px;
+  color: #fff;
+  display: inline-block;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin: 0 auto;
+  position: relative;
+  font-family: Fira Sans, sans-serif;
+  font-size: 16px;
+  font-weight: 500;
+  margin-bottom: 10px;
+}
+.primary_btn::before {
+  content: "";
+  position: absolute;
+  height: 44px;
+  min-width: 194px;
+  border: 1px solid #292928;
+  width: 99%;
+  left: 4.5px;
+  top: 3px;
+}
+.primary_btn img {
+  margin-left: 8px;
+}
+
+.primary_btn.disabled{
+  background-color: #61625E;
+  cursor: not-allowed;
+}
+
+.primary_btn.disabled::before{
+  content: "";
+  border: 1px solid #61625E;
+}
+
+@media screen and (max-width: 540px) {
+  .primary_btn {
+    min-width: 194px;
+  }
+  .primary_btn::before {
+    min-width: 194px;
+    left: 4px;
+    top: 3.5px;
+  }
+}

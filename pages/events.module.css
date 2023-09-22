@@ -1,0 +1,688 @@
+.event_page {
+  background-color: white;
+}
+.sticky-button-mobile-container{
+  display: none;
+}
+/* header design start */
+.event_page header {
+  position: fixed;
+  width: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  background-color: #fff;
+  box-shadow: 2px 3px 6px 0px rgba(0, 0, 0, 0.09);
+  z-index: 999;
+  padding: 22px 140px 23px;
+}
+.global_header{
+  max-height: 85px;
+}
+.event_page header .header_right > a {
+  color: #171717;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+}
+.event_page header .header_right > a:not(:last-child) {
+  margin-right: 20px;
+}
+
+.event_page header .header_right a.education_partner {
+  margin-right: 15px;
+}
+.event_page header .header_right > a > img {
+  margin-left: 10px;
+}
+.event_page header .header_right a.education_partner > img,
+.event_page header .header_right a.media_partner > img {
+  margin-left: 5px;
+}
+/* header design ends */
+.container {
+  max-width: 762px;
+  padding: 135px 0 100px 0;
+  margin: auto;
+}
+
+/* hero banner design start */
+.hero_banner {
+  background-color: #ebe8f5;
+  border-radius: 2px;
+  padding: 40px;
+  margin-bottom: 100px;
+}
+.hero_banner .event_page_logo {
+  display: none;
+}
+.hero_banner .hero_banner_sup_title {
+  color: #212120;
+  font-size: 20px;
+  font-weight: 400;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 32px;
+  text-align: center;
+}
+.hero_banner .hero_banner_title {
+  color: #171717;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: spirits-soft, serif;
+  font-style: normal;
+  line-height: 54px;
+  letter-spacing: 0.72px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.hero_banner .hero_banner_sub_title {
+  color: #212120;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 40px;
+}
+.hero_banner .hero_banner_list {
+  display: flex;
+  justify-content: space-between;
+  list-style: none;
+  padding: 0;
+  margin-bottom: 40px;
+}
+.hero_banner_list > li {
+  min-width: 214px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+}
+.hero_banner_list > li img.list_item_icon {
+  cursor: pointer;
+  margin-right: 5px;
+}
+.hero_banner_list > li .list_item_value {
+  color: #212120;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+}
+.hero_banner .limited_invitation_text {
+  display: block;
+  color: #171717;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+  text-align: center;
+}
+.hero_banner .header_right{
+    display: none;
+}
+/* hero banner design start */
+
+/* about the event design start */
+.about_event {
+  margin-bottom: 90px;
+}
+
+.about_event .about_event_title {
+  color: #171717;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: spirits-soft, serif;
+  font-style: normal;
+  line-height: 42px;
+  letter-spacing: 0.56px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.about_event .about_event_para {
+  color: #212120;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+
+/* about the event design ends */
+
+/* core objectives design start */
+.core_objectives_summit {
+  margin-bottom: 100px;
+}
+
+.core_objectives_summit .objectives_title {
+  color: #171717;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: spirits-soft, serif;
+  font-style: normal;
+  line-height: 42px;
+  letter-spacing: 0.56px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.objectives_list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  list-style: none;
+  padding: 0;
+}
+.objectives_list li.objectives_list_item {
+  max-width: 366px;
+}
+.objectives_list .list_item_title {
+  color: #171717;
+  font-size: 18px;
+  font-weight: 500;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+  margin-bottom: 5px;
+}
+.objectives_list .objectives_list_para {
+  color: #212120;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+}
+
+/* core objectives design ends */
+
+/* event details design start */
+.event_details .event_details_title {
+  color: #171717;
+  font-size: 36px;
+  font-weight: 400;
+  font-family: spirits-soft, serif;
+  font-style: normal;
+  line-height: 54px;
+  letter-spacing: 0.72px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+.event_details .event_details_card {
+  width: 762px;
+  height: 500px;
+  display: flex;
+  align-items: center;
+  background: url("/images/event-page/westin-bg.png");
+  background-size: cover;
+}
+.event_details_list {
+  list-style: none;
+  padding: 0;
+  padding-left: 81px;
+}
+.event_details_list li.event_details_item {
+  min-width: 367px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: #41423f;
+  border-radius: 2px;
+  padding: 10px;
+}
+.event_details_list li.event_details_item:not(:last-child) {
+  margin-bottom: 20px;
+}
+.event_details_list li.event_details_item.active {
+  background-color: #ffdb80;
+}
+.event_details_list li.event_details_item.active .event_details_value {
+  color: #171717;
+}
+.event_details_item .event_details_value {
+  color: #fff;
+  font-size: 18px;
+  font-weight: 400;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+  margin-left: 5px;
+}
+.event_details_item > img {
+  cursor: pointer;
+}
+.order_events {
+  background-color: #f9f9f9;
+  border-radius: 2px;
+  padding: 30px 20px;
+}
+
+.order_events .order_events_title {
+  color: #171717;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: spirits-soft, serif;
+  font-style: normal;
+  line-height: 42px;
+  letter-spacing: 0.56px;
+  text-align: center;
+}
+.order_events .events_list {
+  list-style: none;
+  padding: 0;
+}
+.order_events .events_list > li {
+  display: flex;
+  flex-direction: column;
+  border-bottom: 1px solid #deddd9;
+  padding: 20px 0;
+}
+.events_list li.events_list_item .event_time {
+  color: #212120;
+  font-size: 16px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 25px;
+}
+.events_list li.events_list_item .event_sub-title {
+  color: #212120;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+}
+.events_list li.events_list_item .event_name {
+  color: #171717;
+  font-size: 16px;
+  font-weight: 500;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 25px;
+}
+.order_events .event_user_card {
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+  margin-top: 10px;
+}
+.event_user_card .user_card_header {
+  display: flex;
+  align-items: center;
+  margin-bottom: 10px;
+}
+
+.user_card_header .user_about {
+  display: flex;
+  flex-direction: column;
+}
+.user_card_header > img {
+  margin-right: 10px;
+}
+.user_card_header .user_about .user_name {
+  color: #212120;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+}
+.order_events .user_designation {
+  color: #212120;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 20px;
+}
+.order_events .user_card_body {
+  color: #212120;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+}
+.order_events .event_card-list {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+  list-style: none;
+  padding: 0;
+  margin-top: 10px;
+}
+.order_events .event_card-list > li {
+  width: calc(100% / 2 - 10px);
+  display: flex;
+  align-items: center;
+  background-color: #fff;
+  border-radius: 2px;
+  padding: 10px;
+}
+.order_events .event_card-list > li .user_about {
+  display: flex;
+  flex-direction: column;
+}
+.order_events .event_card-list .user_img {
+  margin-right: 10px;
+}
+.order_events .event_card-list .user_name {
+  color: #212120;
+  font-size: 14px;
+  font-weight: 500;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+}
+.order_events .event_card-list .user-designation {
+  color: #212120;
+  font-size: 12px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 20px;
+}
+
+/* event details design ends */
+
+/* register now design start */
+.register_now {
+  display: flex;
+  padding-right: 101px;
+  padding-left: 101px;
+  margin-bottom: 50px;
+}
+.register_now .register_now_content {
+  margin-right: 32px;
+  width: 30%;
+}
+.register_now .register_now_title {
+  color: #171717;
+  font-size: 28px;
+  font-weight: 400;
+  font-family: spirits-soft, serif;
+  font-style: normal;
+  line-height: 42px;
+  letter-spacing: 0.56px;
+  margin-bottom: 10px;
+}
+.register_now .register_now_para {
+  color: #171717;
+  font-size: 18px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 28px;
+}
+
+/* register now design ends */
+
+/* footer design start */
+.event_page footer {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: #fff;
+  padding-bottom: 104px;
+}
+.event_page footer .powered_by {
+  color: #292928;
+  font-size: 14px;
+  font-weight: 300;
+  font-family: "Fira Sans";
+  font-style: normal;
+  line-height: 22px;
+}
+.event_page footer .powered_by .fin_logo {
+  margin-left: 10px;
+}
+
+/* footer design ends */
+
+@media screen and (max-width: 540px) {
+  .event_page header {
+    display: none;
+  }
+  .sticky-button-mobile-container{
+    display:block;
+    position: fixed;
+    bottom: 0px;
+    width: 100%;
+    z-index: 2;
+  }
+  .sticky-button-mobile{
+    background-color: #fff;
+    display: flex;
+    padding: 10px 25px;
+    width: 100%;
+    align-items: center;
+  }
+  .sticky-button-para{
+    color:#000;
+    font-size: 16px;
+    font-weight: 300;
+    font-family: Fira Sans,sans-serif;
+    /* max-width: 200px; */
+    max-width: 65%;
+  }
+  .sticky-button-enroll{
+    color: #fff;
+    font-family: Fira Sans,sans-serif;
+    font-size: 16px;
+    font-weight: 500;
+    padding-left:15px;
+   }
+  .container {
+    padding: 0 0 61px 0;
+  }
+  .hero_banner {
+    padding: 20px 25px 40px;
+  }
+  .hero_banner .event_page_logo {
+    display: block;
+    text-align: center;
+    margin-bottom: 30px;
+  }
+  .hero_banner .hero_banner_sup_title {
+    font-size: 16px;
+    font-weight: 300;
+    line-height: 25px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 5px;
+  }
+  .hero_banner .hero_banner_title {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.72px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 10px;
+  }
+  .hero_banner .hero_banner_sub_title {
+    font-size: 14px;
+    line-height: 22px;
+    padding-right: 20px;
+    padding-left: 20px;
+    margin-bottom: 30px;
+  }
+  .hero_banner .hero_banner_list {
+    flex-wrap: wrap;
+    gap: 15px 20px;
+  }
+  .hero_banner_list > li {
+    min-width: unset;
+    width: 100%;
+  }
+
+  .hero_banner_list > li:not(:last-child) {
+    min-width: unset;
+    width: 152px;
+  }
+  .hero_banner_list > li > img {
+    width: 15px;
+    height: 15px;
+  }
+  .hero_banner_list > li .list_item_value {
+    font-size: 14px;
+    line-height: 22px;
+  }
+  .hero_banner .limited_invitation_text {
+    font-size: 12px;
+    line-height: 20px;
+    margin-bottom: 30px;
+  }
+  .hero_banner .header_right > a:first-child {
+    width: 100%;
+    display: block;
+    text-align: center;
+    margin-bottom: 15px;
+  }
+  .hero_banner .header_right a span {
+    color: #212120;
+    font-size: 14px;
+    font-weight: 300;
+    font-family: "Fira Sans";
+    font-style: normal;
+    line-height: 22px;
+  }
+  .hero_banner .header_right{
+    display:block;
+}
+  .hero_banner .header_right > a:first-child > img {
+    margin-left: 10px;
+  }
+  .hero_banner .header_right_bottom {
+    display: flex;
+    justify-content: center;
+  }
+  .hero_banner .header_right_bottom > a {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+  }
+  .hero_banner .header_right_bottom > a:not(:last-child) {
+    margin-right: 30px;
+  }
+  .about_event {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 60px;
+  }
+  .about_event .about_event_title {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    margin-bottom: 20px;
+  }
+  .about_event .about_event_para {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .core_objectives_summit {
+    padding-left: 25px;
+    padding-right: 25px;
+    margin-bottom: 60px;
+  }
+  .core_objectives_summit .objectives_title {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+  }
+  .objectives_list li.objectives_list_item {
+    max-width: unset;
+    width: 100%;
+  }
+  .objectives_list .list_item_title {
+    font-size: 16px;
+    line-height: 25px;
+    margin-bottom: 5px;
+  }
+  .objectives_list .objectives_list_para {
+    font-size: 16px;
+    line-height: 25px;
+  }
+  .event_details .event_details_card {
+    background: url("/images/event-page/westin-bg-mob.png");
+    width: 100%;
+    background-size: cover;
+    background-repeat: no-repeat;
+    height: 246px;
+  }
+  .order_events .order_events_title {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+  }
+  .order_events .event_card-list > li {
+    width: 100%;
+  }
+  .register_now {
+    padding-right: 25px;
+    flex-direction: column;
+    align-items: center;
+    padding-left: 25px;
+    margin-bottom: 60px;
+  }
+  .register_now .register_now_content {
+    margin-right: 0;
+    width: 100%;
+  }
+  .register_now .register_now_title {
+    font-size: 20px;
+    line-height: 32px;
+    letter-spacing: 0.4px;
+    text-align: center;
+  }
+  .register_now .register_now_para {
+    font-size: 16px;
+    line-height: 25px;
+    text-align: center;
+    margin-bottom: 20px;
+  }
+  .event_page footer {
+    padding-bottom: 43px;
+  }
+  .event_details_list {
+    padding-left: 41px;
+  }
+  .event_details .event_details_title {
+    font-size: 24px;
+    line-height: 30px;
+    letter-spacing: 0.72px;
+  }
+  .event_details_list li.event_details_item {
+    width: 179px;
+    min-width: unset;
+    padding: 5px 10px;
+  }
+  .event_details_list li.event_details_item:not(:last-child){
+    margin-bottom: 10px;
+  }
+  
+  .event_details_list li.event_details_item > img {
+    width: 15px;
+    height: 15px;
+  }
+  .event_details_item .event_details_value {
+    font-size: 12px;
+    line-height: 20px;
+  }
+}
+
+@media screen and (max-width: 373px) {
+  .hero_banner_list > li:not(:last-child) {
+    width: 100%;
+  }
+}
