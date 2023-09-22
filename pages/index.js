@@ -82,6 +82,7 @@ const index = () => {
         <div className={`${styles["header_right"]}`} style={{ display: 'flex', alignItems: 'center'}}>
           <a
             className={`${styles["hosted_by"]} ${styles["active"]}`}
+            style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
             href="javascript:void(0)"
           >
             Hosted by
@@ -94,6 +95,7 @@ const index = () => {
           </a>
           <a
             className={`${styles["education_partner"]}`}
+              style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
             href="javascript:void(0)"
           >
             Education partner
@@ -104,7 +106,9 @@ const index = () => {
               alt="fbsp-logo"
             />}
           </a>
-          <a className={`${styles["media_partner"]}`} href="javascript:void(0)">
+          <a className={`${styles["media_partner"]}`}
+            style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
+           href="javascript:void(0)">
             Media partner
             {brandImages?.media && <img
               src={brandImages?.media || null}
