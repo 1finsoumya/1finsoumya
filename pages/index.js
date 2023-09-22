@@ -59,7 +59,7 @@ const index = () => {
   return (
     <div className={`${styles["event_page"]}`}>
       <Head>
-        <title>Event Page</title>
+        <title>GFP Event Page</title>
         <link
           rel="stylesheet"
           href="https://use.typekit.net/pbo4top.css"
