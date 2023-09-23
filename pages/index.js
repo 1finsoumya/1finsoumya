@@ -81,11 +81,10 @@ const index = () => {
         </a>
         <div className={`${styles["header_right"]}`} style={{ display: 'flex', alignItems: 'center'}}>
           <a
-            className={`${styles["hosted_by"]} ${styles["active"]}`}
-            style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
+            className={`${styles["hosted_by"]} ${styles.brand_img} ${styles["active"]}`}
             href="javascript:void(0)"
           >
-            Hosted by
+            Presented by
             <img
               src="/images/event-page/1fin-logo.svg"
               width="34"
@@ -94,8 +93,7 @@ const index = () => {
             />
           </a>
           <a
-            className={`${styles["education_partner"]}`}
-              style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
+            className={`${styles["education_partner"]} ${styles.brand_img}`}
             href="javascript:void(0)"
           >
             Education partner
@@ -106,9 +104,7 @@ const index = () => {
               alt="fbsp-logo"
             />}
           </a>
-          <a className={`${styles["media_partner"]}`}
-            style={{display: 'flex', flexDirection: 'row', alignItems: 'center'}}
-           href="javascript:void(0)">
+          <a className={`${styles["media_partner"]} ${styles.brand_img}`} href="javascript:void(0)">
             Media partner
             {brandImages?.media && <img
               src={brandImages?.media || null}
@@ -178,7 +174,7 @@ const index = () => {
                 alt="location-icon"
               />
               <span className={`${styles["list_item_value"]}`}>
-                Westin, Goregaon
+                The Westin, Goregaon
               </span>
             </li>
           </ul>
@@ -190,10 +186,10 @@ const index = () => {
           </span>
           <div className={`${styles["header_right"]}`}>
             <a
-              className={`${styles["hosted_by"]} ${styles["active"]}`}
+              className={`${styles["hosted_by"]} ${styles.brand_img} ${styles["active"]}`}
               href="javascript:void(0)"
             >
-              <span>Hosted by</span>
+              <span>Presented by</span>
               <img
                 src="/images/event-page/1fin-logo.svg"
                 width="30"
@@ -332,7 +328,7 @@ const index = () => {
                   alt="location-dark-icon"
                 />
                 <span className={`${styles["event_details_value"]}`}>
-                  Westin, Goregaon
+                  The Westin, Goregaon
                 </span>
               </li>
             </ul>
@@ -347,146 +343,78 @@ const index = () => {
                   9.30 - 10.30 AM
                 </span>
                 <span className={`${styles["event_name"]}`}>
-                  Registration, Engagement, and Networking
+                  Breakfast, Engagement and Networking
                 </span>
               </li>
               <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
-                  10.30 - 10.35 AM
+                  10:30 - 10:40 AM
                 </span>
                 <span className={`${styles["event_name"]}`}>
-                  Lighting the Lamp
+                  Welcome address
                 </span>
               </li>
               <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
-                  10.35 - 10.45 AM
+                  10:40 - 11:00 AM
                 </span>
                 <span className={`${styles["event_name"]}`}>
-                  Welcome Address
+                  Opening Note - Anooj Mehta
                 </span>
               </li>
               <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
-                  10.35 - 10.45 AM
+                  11:00 - 11:30 AM
                 </span>
                 <span className={`${styles["event_name"]}`}>
-                  Welcome Address
+                  Keynote speaker's session
+                </span>
+              </li>
+              <li className={`${styles["events_list_item"]}`}>
+                <span className={`${styles["event_time"]}`}>
+                  11:30 - 12:15 PM
+                </span>
+                <span className={`${styles["event_name"]}`}>
+                  Panel Discussion
                 </span>
                 <div className={`${styles["event_user_card"]}`}>
                   <div className={`${styles["user_card_header"]}`}>
                     <img
-                      src="/images/event-page/user-image.png"
+                      src="/images/event-page/kirtan.png"
                       width="50"
                       height="50"
                       alt="user-image"
                     />
                     <div className={`${styles["user_about"]}`}>
                       <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
+                        Kirtan Shah
                       </span>
-                      <span className={`${styles["user_designation"]}`}>
-                        PhD in Psychology, 15 years
+                      <span className={`${styles["user_desc"]}`}>
+                        Wealth Management solutions for UHNI’s, HNI’s &
+                        Corporate Treasury
                       </span>
                     </div>
-                  </div>
-                  <div className={`${styles["user_card_body"]}`}>
-                    A prominent financial ethicist, champions ethical financial
-                    practices, reshaping industry standards for trust and
-                    credibility. Join her to gain invaluable insights at the
-                    summit.
                   </div>
                 </div>
               </li>
               <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
-                  11.15 AM - 12.00 PM
-                </span>
-                <span className={`${styles["event_name"]}`}>
-                  Panel Discussion
-                </span>
-                <ul className={`${styles["event_card-list"]}`}>
-                  <li className={`${styles["card-item"]}`}>
-                    <img
-                      className={`${styles["user_img"]}`}
-                      src="/images/event-page/user-image.png"
-                      width="50"
-                      height="50"
-                      alt="user-image"
-                    />
-                    <div className={`${styles["user_about"]}`}>
-                      <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
-                      </span>
-                      <span className={`${styles["user-designation"]}`}>
-                        PhD in Psychology, 15 years
-                      </span>
-                    </div>
-                  </li>
-                  <li className={`${styles["card-item"]}`}>
-                    <img
-                      className={`${styles["user_img"]}`}
-                      src="/images/event-page/user-image.png"
-                      width="50"
-                      height="50"
-                      alt="user-image"
-                    />
-                    <div className={`${styles["user_about"]}`}>
-                      <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
-                      </span>
-                      <span className={`${styles["user-designation"]}`}>
-                        PhD in Psychology, 15 years
-                      </span>
-                    </div>
-                  </li>
-                  <li className={`${styles["card-item"]}`}>
-                    <img
-                      className={`${styles["user_img"]}`}
-                      src="/images/event-page/user-image.png"
-                      width="50"
-                      height="50"
-                      alt="user-image"
-                    />
-                    <div className={`${styles["user_about"]}`}>
-                      <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
-                      </span>
-                      <span className={`${styles["user-designation"]}`}>
-                        PhD in Psychology, 15 years
-                      </span>
-                    </div>
-                  </li>
-                  <li className={`${styles["card-item"]}`}>
-                    <img
-                      className={`${styles["user_img"]}`}
-                      src="/images/event-page/user-image.png"
-                      width="50"
-                      height="50"
-                      alt="user-image"
-                    />
-                    <div className={`${styles["user_about"]}`}>
-                      <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
-                      </span>
-                      <span className={`${styles["user-designation"]}`}>
-                        PhD in Psychology, 15 years
-                      </span>
-                    </div>
-                  </li>
-                </ul>
-              </li>
-              <li className={`${styles["events_list_item"]}`}>
-                <span className={`${styles["event_time"]}`}>
-                  12.05 - 12.10 PM
+                  12.15 - 12.30 PM
                 </span>
                 <span className={`${styles["event_name"]}`}>
                   Papa please - Awareness Initiate Film Release
                 </span>
+                <img
+                  className={`${styles["event_img"]}`}
+                  src="/images/event-page/papa-please-img.png"
+                  width="467"
+                  height="263"
+                  alt="papa-please-img"
+                ></img>
               </li>
               <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
-                  12:15 - 12:45 PM
+                  12:30 - 1:00 PM
                 </span>
                 <span className={`${styles["event_name"]}`}>Fireside Chat</span>
                 <span className={`${styles["event_sub-title"]}`}>
@@ -497,45 +425,45 @@ const index = () => {
                   <li className={`${styles["card-item"]}`}>
                     <img
                       className={`${styles["user_img"]}`}
-                      src="/images/event-page/user-image.png"
+                      src="/images/event-page/jeet-image.png"
                       width="50"
                       height="50"
                       alt="user-image"
                     />
                     <div className={`${styles["user_about"]}`}>
                       <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
+                        Jeet Marwadi
                       </span>
                       <span className={`${styles["user-designation"]}`}>
-                        PhD in Psychology, 15 years
+                        Founder, 1 Finance
                       </span>
                     </div>
                   </li>
                   <li className={`${styles["card-item"]}`}>
                     <img
                       className={`${styles["user_img"]}`}
-                      src="/images/event-page/user-image.png"
+                      src="/images/event-page/nikhil.png"
                       width="50"
                       height="50"
                       alt="user-image"
                     />
                     <div className={`${styles["user_about"]}`}>
                       <span className={`${styles["user_name"]}`}>
-                        Dr. Lokesh Gupta
+                        Nikhil Kurhe
                       </span>
                       <span className={`${styles["user-designation"]}`}>
-                        PhD in Psychology, 15 years
+                        Co-Founder & CEO at Finarkein Analytics
                       </span>
                     </div>
                   </li>
                 </ul>
               </li>
-              <li className={`${styles["events_list_item"]}`}>
+              {/* <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
                   12.50 - 1.00 PM
                 </span>
                 <span className={`${styles["event_name"]}`}>Closing Note</span>
-              </li>
+              </li> */}
               <li className={`${styles["events_list_item"]}`}>
                 <span className={`${styles["event_time"]}`}>
                   1.00 - 3.00 PM
@@ -566,7 +494,7 @@ const index = () => {
 
       {/* footer section start */}
       <footer>
-        <span className={`${styles["powered_by"]}`}>
+        {/* <span className={`${styles["powered_by"]}`}>
           Powered by
           <a href="javascript:void(0)" className={`${styles["fin_logo"]}`}>
             <img
@@ -576,7 +504,42 @@ const index = () => {
               height="40"
             />
           </a>
-        </span>
+        </span> */}
+        <a
+          className={`${styles["hosted_by"]} ${styles.brand_img} ${styles["active"]}`}
+          href="javascript:void(0)"
+        >
+          Presented by
+          <img
+            src="/images/event-page/1fin-logo.svg"
+            width="34"
+            height="40"
+            alt="1fin-logo"
+          />
+        </a>
+        <div  className={`${styles["footer_bottom"]}`}>
+          <a
+            className={`${styles["education_partner"]}`}
+            href="javascript:void(0)"
+          >
+            Education partner
+            <img
+              src="/images/event-page/fbsp-logo.svg"
+              width="42"
+              height="30"
+              alt="fbsp-logo"
+            />
+          </a>
+          <a className={`${styles["media_partner"]}`} href="javascript:void(0)">
+            Media partner
+            <img
+              src="/images/event-page/mint-logo.svg"
+              width="47"
+              height="17"
+              alt="mint-logo"
+            />
+          </a>
+        </div>
       </footer>
       {/* footer section ends */}
       { isBtnVisible && 

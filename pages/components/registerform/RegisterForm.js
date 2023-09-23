@@ -176,7 +176,7 @@ const RegisterForm = () => {
           <div  className={`${styles["column"]}`} >
             <Input label={"Company Name"} id="company" className={`${styles["inputClass"]}`}/>
             <Input label={"Designation"} id="designation" className={`${styles["inputClass"]}`}/>
-            <Input label={"Currenty City"} id="city" className={`${styles["inputClass"]}`}/>
+            <Input label={"Current City"} id="city" className={`${styles["inputClass"]}`}/>
           </div>
         </div>
         <PrimaryBtn btn_disable={!(isValid && dirty)} btnTyp="submit" />

@@ -15,7 +15,7 @@ export default function InputPhone({ id, onBlurFunction = null, label, className
                     width="24"
                     height="24"
                 />
-                <span>+91 | </span>
+                <span style={{color: 'black'}}>+91 | </span>
                     {/* </div> */}
             <input
                 type="text"

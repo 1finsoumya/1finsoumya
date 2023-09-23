@@ -48,7 +48,7 @@
 
 .warn {
     display: flex;
-    justify-content: start;
+    justify-content: flex-start;
     align-items: center;
     color: var(--error, #CC563C);
     font-size: 12px;
