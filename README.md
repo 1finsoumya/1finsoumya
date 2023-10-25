@@ -1,7 +1,7 @@
 <h1 align="center">Hi 👋, I'm Soumya</h1>
 <h3 align="center">A passionate Developer and Learner</h3>
 
-[![🔴 Link to My main profile]](https://github.com/1finsoumya)
+[![🔴 Link to My main profile]](https://github.com/lifeofsoumya)
 
 - 🔭 I just uploaded a 4.5hour tutorial: [Build FullStack LinkTree with MERN | Multi user Auth & CRUD Operation](https://youtu.be/m5xjlSib2ls)
 
